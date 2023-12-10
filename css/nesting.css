@@ -1,0 +1,30 @@
+
+
+.nestingcol{
+    background-color: rgb(101, 165, 42);
+    height: 30vh;
+    color: white;
+    border: solid 6px gray;
+}
+
+.small-col{
+    background-color: rgb(134, 81, 13);
+    color: whitesmoke;
+}
+
+.small-col-2{
+    background-color: rgb(67, 26, 125);
+    color: whitesmoke;
+}
+
+.nestingcol2{
+    background-color: rgb(42, 165, 157);
+    height: 30vh;
+    color: white;
+    border: solid 6px gray;
+}
+
+.col1{
+    background-color: burlywood;
+    border: solid 6px gray;
+}

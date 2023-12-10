@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(51, 182, 225);
+    /* color: white; */
+    font-size: 20px;
+}
+
+.my-own-class{
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration-color: rgb(255, 255, 255);
+    border: solid 6px rgb(0, 87, 128);
+
+}
+.my-own-class-2{
+    background-color: rgb(34, 228, 163);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration-color: rgb(255, 255, 255);
+    border: solid 6px rgb(196, 44, 122);
+
+}
+.border{
+    border: solid 6px black;
+}
+.col1{
+    background-color: rgb(217, 241, 93);
+    border: solid 6px purple;
+}
+
+.col2{
+    background-color: rgb(22, 10, 22);
+    color: white;
+    border: solid 6px rgb(161, 17, 161);
+}
+
+.footer{
+    background-color: rgb(88, 87, 87);
+    height: 10vh;
+    border: 2px solid black;
+    width: 100%;
+}
