@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezFvHgb5N1rHFBIChJ53FvW5xHlaBK7lN5b3dM+6MCQqgh9Ug6ZegnBZQ+8PMOBL" crossorigin="anonymous">
@@ -55,21 +56,27 @@
   </div>
 </nav>
 
-<div class="content">
-  <h1>Professional Business<br>Consulting</h1>
-  <p>Businet provides reliable business planning,<br>
-    management, and advisory services backed by years <br>
-     of experience in the industry.</p>
-     <div class="button-container">
-        <a class="btn btn-primary" href="#" role="button">Read More</a>
-        <a class="btn btn-secondary" href="#" role="button">Contact Us</a>
+<div class="header">
+  <div class="content">
+      <div class="block-custom">
+      <h2>Professional Business<br>Consulting</h2>
+      <h4>Businet provides reliable business planning,
+        management, and <br>advisory services backed by years 
+        of experience in the industry.
+      </h4>
+        <div class="button-container">
+            <a class="btn" href="#" role="button" id="read-btn">Read More</a>
+            <a class="btn btn-secondary" href="#" role="button">Contact Us</a>
+        </div>
     </div>
-    
+  </div>
 </div>
+
+                                                  <!--  Our Services Section -->
 
 <section class="services-section">
     <div class="container">
-      <h4 class="services-title">OUR SERVICES</h4>
+      <div class="services-title">OUR SERVICES</div>
       <h3 class="sub-service">What We Do</h3>
       
       <div class="row">
@@ -88,7 +95,7 @@
             <p>Allowing you to successfully deal with your company’s funds.</p>
           </div>
         </div>
-        
+  
         <div class="col-md-4">
           <div class="service-card">
             <i class="fas fa-bullhorn service-icon"></i>
@@ -126,6 +133,7 @@
     </div>
   </section>
 
+                                                  <!--  About Us Section -->
 
   <section class="about-section">
     <div class="container">
@@ -152,6 +160,7 @@
     </div>
   </section>
 
+                                                   <!--  Why Us Section -->
   
 <section class="why-us-section">
     <div class="container">
@@ -177,7 +186,7 @@
     </div>
   </section>
 
-
+                                                    <!--  What We Work On Section -->
   <section class="work-on-section">
     <div class="container">
       <div class="work-on-content">
@@ -195,7 +204,7 @@
   </section>
 
 
-
+                                                     <!--  Our Team Section -->
   <section class="team-section">
     <div class="container">
       <div class="team-title">
@@ -210,16 +219,17 @@
 
             <div class="row">
               <!-- Team Member 1 -->
-              <div class="col-md-3">
+            <div class="col-md-3">
                 <div class="team-card">
-                  <img src="images/Michael-Logan.jpg" alt="Team Member 1" class="team-member-image">
-                  <div class="team-member-details">
-                    <div class="team-member-name">Michael Logon</div>
-                    <div class="team-member-title">Managing Director</div>
-                    <!-- <button class="get-in-touch-button"><i class="fas fa-arrow-up fa-arrow-up-left"></i></button> -->
-                  </div>
+                    <img src="images/Michael-Logan.jpg" alt="Team Member 1" class="team-member-image">
+                    <div class="team-member-details">
+                        <div class="team-member-name">Michael Logon</div>
+                        <div class="team-member-title">Managing Director</div>
+                    </div>
+                    <i class="bi bi-arrow-up-right-square-fill"></i>
                 </div>
-              </div>
+            </div>
+            
               <!-- Team Member 2 -->
               <div class="col-md-3">
                 <div class="team-card">
@@ -227,7 +237,7 @@
                   <div class="team-member-details">
                     <div class="team-member-name">Jane Willams</div>
                     <div class="team-member-title">Executive Consultant</div>
-                    <!-- <button class="get-in-touch-button"><i class="fas fa-arrow-up fa-arrow-up-left"></i></button> -->
+                   
                   </div>
                 </div>
               </div>
@@ -238,7 +248,7 @@
                   <div class="team-member-details">
                     <div class="team-member-name">Gerorgry Smith</div>
                     <div class="team-member-title">Safety Consultant</div>
-                    <!-- <button class="get-in-touch-button"><i class="fas fa-arrow-up fa-arrow-up-left"></i></button> -->
+                    
                   </div>
                 </div>
               </div>
@@ -249,7 +259,7 @@
                   <div class="team-member-details">
                     <div class="team-member-name">Jannifer Bailey</div>
                     <div class="team-member-title">Associate Consultant </div>
-                    <!-- <button class="get-in-touch-button"><i class="fas fa-arrow-up fa-arrow-up-left"></i></button> -->
+                    
                   </div>
                 </div>
               </div>
@@ -265,7 +275,7 @@
                   <div class="team-member-details">
                     <div class="team-member-name">Larry Turner</div>
                     <div class="team-member-title">Marketing Director</div>
-                   <!-- <button class="get-in-touch-button"><i class="fas fa-arrow-right"></i></button> -->
+                  
                   </div>
                 </div>
               </div>
@@ -276,7 +286,7 @@
                   <div class="team-member-details">
                     <div class="team-member-name">Amy Wright</div>
                     <div class="team-member-title">Accountant</div>
-                   <!-- <button class="get-in-touch-button"><i class="fas fa-arrow-right"></i></button> -->
+                  
                   </div>
                 </div>
               </div>
@@ -287,7 +297,7 @@
                   <div class="team-member-details">
                     <div class="team-member-name">Keith Watson</div>
                     <div class="team-member-title">PR Manager</div>
-                   <!-- <button class="get-in-touch-button"><i class="fas fa-arrow-right"></i></button> -->
+                  
                   </div>
                 </div>
               </div>
@@ -298,7 +308,6 @@
                   <div class="team-member-details">
                     <div class="team-member-name">Tina Scott</div>
                     <div class="team-member-title">Office Manager</div>
-                   <!-- <button class="get-in-touch-button"><i class="fas fa-arrow-right"></i></button> -->
                   </div>
                 </div>
               </div>
@@ -321,10 +330,139 @@
         </div>
       </div>
     </div>
+                                                    <!--  Our Partners Section -->
   </section>
-  
-  
+  <section class="partners-section">
+    <div class="container">
+        <div class="badge">Who Works With Us</div>
+            <h3 class="section-title"> Our Parnters</h3>
+    </div>
 
+    <div class="carousel-container">
+        <div id="partnersCarousel1" class="custom-carousel carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div id="carouselItem1" class="carousel-item active">
+                    <div class="d-flex justify-content-between">
+                        <img src="images/My-Parquet.png" class="d-block" alt="Company Logo 1">
+                        <img src="images/Infinite.png" class="d-block" alt="Company Logo 2">
+                        <img src="images/Company=Name.png" class="d-block" alt="Company Logo 3">
+                        <img src="images/Wood-Floors.png" class="d-block" alt="Company Logo 4">
+                        <img src="images/Hexagon.png" class="d-block" alt="Company Logo 5">
+                        <img src="images/Infinite.png" class="d-block" alt="Company Logo 2">
+                    </div>
+                </div>
+
+                <div id="carouselItem2" class="carousel-item">
+                    <div class="d-flex justify-content-between">
+                        <img src="images/Company=Name.png" class="d-block" alt="Company Logo 3">
+                        <img src="images/Wood-Floors.png" class="d-block" alt="Company Logo 4">
+                        <img src="images/Hexagon.png" class="d-block" alt="Company Logo 5">
+                        <img src="images/Infinite.png" class="d-block" alt="Company Logo 2">
+                        <img src="images/My-Parquet.png" class="d-block" alt="Company Logo 1">
+                        <img src="images/Wood-Floors.png" class="d-block" alt="Company Logo 4">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="faq">
+  <div class="row">
+    <div class="col-md-12 faq-section">
+      <div class="row">
+        <div class="col-md-4 left-column">
+          <h5>POPULAR QUESTIONS</h5>
+          <h3>FAQ</h3>
+          <p><a href="#general">General</a></p>
+          <p><a href="#links">Links</a></p>
+          <hr>
+          <p><a href="#solutions">Our Solutions</a></p>
+          <hr>
+          <p><a href="#experience">Our Experience</a></p>
+          <hr>
+          <p><a href="#service">Customer Service</a></p>
+        </div>
+        <div class="col-md-8 right-column">
+          <div class="faq-text">
+            <p id="general">What am I allowed to do with the templates?</p>
+            <div class="faq-dropdown" id="general-content">
+              <p>You may build a website using the template in any way you like. You may not resell or redistribute templates (like we do); claim intellectual or exclusive ownership to any of our products, modified or unmodified. All products are property of content providing companies and individuals. You are also not allowed to make more than one project using the same template (you have to purchase the same template once more in order to make another project with the same design).</p>
+              <p>If you want to use any of already bought templates for another project of yours, you have to purchase that template once more in order to use the same design for your company website.</p>
+              <p class="close-button"><a href="#">Close</a></p>
+            </div>
+          </div>
+          <div class="faq-text">
+            <p id="links">Do you provide any scripts with your templates?</p>
+            <p>Our templates do not include any additional scripts. Newsletter subscriptions, search fields, forums, image galleries (in HTML versions of Flash products) are active. Basic scripts can be easily added at <a href="http://www.zemez.io" target="_blank">www.zemez.io</a>. If you are not sure that the element you’re interested in is active, please contact our Support Chat for clarification.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                                                    <!--  Footer -->
+<footer class="footer-classic">
+  <div class="footer-main">
+      <div class="footer-column">
+          <img src="images/Businet-logo-footer.png" alt="Company Logo" class="footer-logo">
+          <p class="para-footer">Since 1999, we have been helping American businesses thrive.</p>
+          <button class="sign-in-button" id="footer-btn">Sign In</button>
+      </div>
+
+      <div class="footer-column">
+          <h4>Who We Are</h4>
+          <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Our Team</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <div class="column-links">
+            <ul>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+        <div class="column-links">
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+
+      <div class="footer-column">
+          <h4>Get in Touch</h4>
+          <p>Email: info@demolink.org</p>
+          <p>Phone: +1-853-234-65</p>
+
+
+          <div class="social-icons">
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  </div>
+  <hr>
+  <aside>
+      <p>&copy; 2023 Businet. <a href="#">Privacy Policy</a></p>
+  </aside>
+</footer>
+
+  
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
