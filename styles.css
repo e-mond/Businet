@@ -1,3 +1,4 @@
+                                              /* landing-page */
 .landing-page {
   background-image: url('images/bg.jpg');
   background-size: cover;
@@ -11,7 +12,7 @@
 }
 
 
-
+                                                  /* Navbar */
   .navbar {
     background-color: transparent !important;
     margin-right: 5%;
@@ -72,7 +73,7 @@
   }
 
 
-  
+                                                   /* <!-- CONTENT ON IMAGE --> */
 .content {
         position: absolute;
         top: 40%;
@@ -151,6 +152,8 @@
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
+    margin-right: 15px;
+
 }
 
 #read-btn:hover {
@@ -186,7 +189,7 @@
     padding: 40px 0; 
 }
 
-
+                                                /* <!--  Our Services Section --> */
   .services-title {
  
     display: inline-block;
@@ -246,7 +249,6 @@
     -webkit-text-fill-color: transparent;
 }
 
-
   .service-card h2 {
     color: #262F3C; 
     font-size: 20px; 
@@ -264,7 +266,7 @@
   }
 
 
-  
+                                                /* <!--  About Us Section --> */
   .about-section {
     padding: 80px 0;
     background-size: cover;
@@ -350,7 +352,7 @@
     margin-top: 20px;
     border-radius: 50px;
     transition: background-color 0.3s;
-    width: 39%;
+    width: 34%;
     padding: 16px 35px;
   }
 
@@ -358,7 +360,7 @@
     color: #FF6F80  ;
   }
 
-
+                                                        /* <!--  Why Us Section --> */
   .why-us-section {
     padding: 80px 0;
     background-color: #ffffff;
@@ -435,7 +437,7 @@
     margin-top: 5px; 
   }
   
-
+                                                  /* <!--  What We Work On Section --> */
   .work-on-section {
     background-image: url('images/bg-image-4.jpg.png'); 
     background-size: contain;
@@ -506,7 +508,7 @@
     margin-top: 20px;
     border-radius: 50px;
     transition: background-color 0.3s;
-    width: 32%;
+    width: 36%;
     padding: 16px 35px;
   }
 
@@ -514,6 +516,9 @@
     background-color: #ffea5c; 
   }
 
+
+
+                                                    /* <!--  Our Team Section --> */
   .team-section {
     padding: 80px 0;
     position: relative;
@@ -619,7 +624,7 @@
     cursor: pointer;
 }
 
-
+                                          /*   Our Partners Section  */
 .partners-section {
   text-align: center;
   padding: 85px 0px 95px;
@@ -682,14 +687,14 @@
   padding: 40px;
 }
 .faq-section {
-  background-color: #410404; /* White background for the FAQ section */
+  background-color: #410404; 
   padding: 20px;
   margin-top: 20px;
   border-radius: 5px;
 }
 
 .left-column {
-  color: #007bff; /* Blue text color for left column titles */
+  color: #007bff; 
   background-color: transparent;
 }
 
@@ -698,17 +703,17 @@
 }
 
 .left-column h3 {
-  color: #000000; /* Black text color for h3 in left column */
+  color: #000000; 
   margin-top: 20px;
 }
 
 .left-column a {
-  color: #007bff; /* Blue color for links in left column */
+  color: #007bff;
   text-decoration: none;
 }
 
 .left-column a:hover {
-  text-decoration: underline; /* Blue underline on hover for links */
+  text-decoration: underline; 
 }
 
 .right-column {
@@ -732,102 +737,124 @@
   color: #007bff;
 }
 
-
+                                                    /* Footer */
 
 .footer-classic {
-  background-color: #ffffff;
-  color: #8491a5;
-  padding: 40px 0;
-  height: 50px;
+    background-color: #ffffff;
+    color: #8491a5;
+    padding: 50px 0;
+    height: 50px;
+    border-top: 1px solid #ebebeb;
+  }
+  
+  .footer-main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex: 1;
+    max-width: 200px;
+    margin: 0 20px;
+  
+  }
+  
+  .footer-column h4{
+    color: #262f3c;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .column-links {
+    margin-top: 10px;
+    margin: 25px;
+  }
+  
+  .footer-logo {
+    width: 150px; 
+    margin-bottom: 20px; 
+}
+  #para-footer {
+    margin: 10px 0;
+    color: #8491a5;
+    margin-bottom: 20px;
+  }
+
+
+  #footer-btn {
+    background-color: #fff;
+    color: #8491A5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0.48) ;
+    border-width: 1px;
+    border: 2px solid white;
+    filter: blur(0px);
+    border-color: #ebebeb;
+    padding: 16px 35px;
+  }
+  
+  #footer-btn:hover {
+    background-color: #FF6F80;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+
+  }
+  
+  ul li a {
+    color: #555; 
+    text-decoration: none;
 }
 
-.footer-main {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  .social-icons a {
+    margin-right: 10px; 
+    color: #555;
+    text-decoration: none;
 }
+  
 
-.footer-column {
-  flex: 1;
-  max-width: 200px;
-  margin: 0 20px;
-
-}
-
-.footer-column h4{
-  color: #262f3c;
-  font-weight: 600;
-}
 .column-links {
-  margin-top: 10px;
-  margin: 25px;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
 }
 
-.footer-logo {
-  max-width: 100%;  
+.column-links ul {
+    padding: 0;
+}
+
+.column-links ul li {
+    margin-bottom: 10px;
+}
+
+.column-links:last-child {
+    text-align: left; 
+}
+
   
-}
+  aside {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #ebebeb;
+ 
+  }
 
-#para-footer {
-  margin: 10px 0;
-  color: #8491a5;
-  
-}
+  #policy{
+    color: #8491A5;
+  }
 
-#footer-btn {
-  background-color: #fff;
-  color: #8491A5;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  border-color: rgba(255, 255, 255, 0.48) ;
-  border-width: 1px;
-  border: 2px solid white;
-  filter: blur(0px);
-  border-color: #ebebeb;
-  padding: 16px 35px;
-}
-
-#footer-btn:hover {
-  background-color: #FF6F80;
-  color: white;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-a {
-  color: #8491a5;
-  text-decoration: none;
-}
-
-
-.social-icons a {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 30px;
-
-}
-
-
-aside {
-  text-align: center;
-  padding: 20px 0;
-  background-color: #fff;
-  color: #8491a5;
-  
-}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
