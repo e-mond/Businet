@@ -416,13 +416,17 @@ blockquote {
 }
 
   
-  .aside{
+  aside {
     text-align: center;
     padding: 20px 0;
     background-color: #fff;
     text-align: center;
     border-top: 1px solid #ebebeb;
-  
+ 
+  }
+
+  #policy{
+    color: #8491A5;
   }
 
   

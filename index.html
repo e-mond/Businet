@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <link rel="shortcut icon" href="Images/Businet-logo2.png">
+    <link rel="shortcut icon" href="images/Businet-logo2.png">
   <title>Home</title>
 </head>
 <body class="landing-page">
@@ -371,45 +372,103 @@
     </div>
 </section>
 
+                                                  <!-- FAQ SECTION -->
 
-<div class="faq">
-  <div class="row">
-    <div class="col-md-12 faq-section">
-      <div class="row">
-        <div class="col-md-4 left-column">
-          <h5>POPULAR QUESTIONS</h5>
-          <h3>FAQ</h3>
-          <p><a href="#general">General</a></p>
-          <p><a href="#links">Links</a></p>
-          <hr>
-          <p><a href="#solutions">Our Solutions</a></p>
-          <hr>
-          <p><a href="#experience">Our Experience</a></p>
-          <hr>
-          <p><a href="#service">Customer Service</a></p>
-        </div>
-        <div class="col-md-8 right-column">
-          <div class="faq-text">
-            <p id="general">What am I allowed to do with the templates?</p>
-            <div class="faq-dropdown" id="general-content">
-              <p>You may build a website using the template in any way you like. You may not resell or redistribute templates (like we do); claim intellectual or exclusive ownership to any of our products, modified or unmodified. All products are property of content providing companies and individuals. You are also not allowed to make more than one project using the same template (you have to purchase the same template once more in order to make another project with the same design).</p>
-              <p>If you want to use any of already bought templates for another project of yours, you have to purchase that template once more in order to use the same design for your company website.</p>
-              <p class="close-button"><a href="#">Close</a></p>
-            </div>
+<div class="faq-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 faq-section">
+        <div class="row">
+          <div class="col-md-4 left-column">
+              <div class="nav-tabs-outer">
+                  <div class="badge" id="faq-badge">Popular questions</div>
+                  <h3>FAQ</h3>
+              </div>
+              <div class="stuck-navbar stuck-2 navbar" id="navba" data-navbar="{ &quot;stuck&quot;: { &quot;container&quot;: &quot;#tabs-faq&quot;, &quot;offsetRef&quot;: &quot;.rd-navbar-panel&quot;}, &quot;anchor&quot;: false }">
+                <div class="navbar-inner">
+                  <ul class="nav nav-tabs" id="tabs-faq-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-faq-1" data-bs-toggle="tab"><span>General</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-faq-2" data-bs-toggle="tab"><span>Our Solutions</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-faq-3" data-bs-toggle="tab"><span>Our Experience</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-faq-4" data-bs-toggle="tab"><span>Customer Service</span></a></li>
+                  </ul>
+                </div>
+              </div>
           </div>
-          <div class="faq-text">
-            <p id="links">Do you provide any scripts with your templates?</p>
-            <p>Our templates do not include any additional scripts. Newsletter subscriptions, search fields, forums, image galleries (in HTML versions of Flash products) are active. Basic scripts can be easily added at <a href="http://www.zemez.io" target="_blank">www.zemez.io</a>. If you are not sure that the element you’re interested in is active, please contact our Support Chat for clarification.</p>
+          <div class="col-md-8 right-column tab-content">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn  btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What am  I allowed to do with the template?
+                      <div class="card-arrow"></div>
+                    </button>
+                  </h2>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>You may build a website using the template in any way you like. You may not resell or redistribute templates (like we do); claim intellectual or exclusive ownership to any of our products, modified or unmodified. All products are property of content providing companies and individuals. You are also not allowed to make more than one project using the same template (you have to purchase the same template once more in order to make another project with the same design).
+                    If you want to use any of already bought templates for another project of yours, you have to purchase that template once more in order to use the same design for your company website.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Do you provide any scripts with your templates?
+                      <div class="card-arrow"></div>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Our templates do not include any additional scripts. Newsletter subscriptions, search fields, forums, image galleries (in HTML versions of Flash products) are active. Basic scripts can be easily added at www.zemez.io If you are not sure that the element you’re interested in is active =please contact our Support Chat for clarification.,</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What do I receive when I order a template from Zemez?
+                      <div class="card-arrow"></div>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                   <p>After you complete the payment via our secure form you will receive the instructions for downloading the product. The source files in the download package can vary based on the type of the product you have purchased.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      In what formats are your templates available?
+                      <div class="card-arrow"></div>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body" >
+                    <p>Website templates are available in Photoshop and HTML formats. Fonts are included with the Photoshop file. In most templates, HTML is compatible with Adobe® Dreamweaver® and Microsoft® FrontPage®.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
-                                                    <!--  Footer -->
-<footer class="footer-classic">
+                                            <!-- footer -->
+                                                 
+<footer class="container footer-classic">
   <div class="footer-main">
       <div class="footer-column">
           <img src="images/Businet-logo-footer.png" alt="Company Logo" class="footer-logo">
@@ -428,20 +487,22 @@
 
       <div class="footer-column">
         <h4>Quick Links</h4>
-        <div class="column-links">
-            <ul>
-                <li><a href="#">Sign Up</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Pricing</a></li>
-            </ul>
-        </div>
-        <div class="column-links">
-            <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
+        <div class="row">
+          <div class="column-links">
+              <ul>
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Pricing</a></li>
+              </ul>
+          </div>
+          <div class="column-links">
+              <ul>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Contacts</a></li>
+              </ul>
+          </div>
         </div>
     </div>
 
@@ -458,15 +519,21 @@
         </div>
       </div>
   </div>
-  <hr>
+
   <aside>
-      <p>&copy; 2023 Businet. <a id="policy" href="#">Privacy Policy</a></p>
+    <p>&copy; 2023 Businet. <a id="policy" href="#">Privacy Policy</a></p>
   </aside>
 </footer>
+
+                              <!-- To Top -->
+<div id="toTop">
+  <i class="fas fa-arrow-up"></i>
+</div>
 
   
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
 </html>
