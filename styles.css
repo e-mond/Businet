@@ -113,8 +113,11 @@ main {
   gap: 20px;
 }
 
-.button-container a:last-child {
-  border: 1px solid red;
+.button-container a.btn {
+  border-radius: 50px;
+  letter-spacing: .025em;
+  padding: 11px 25px;
+  font-size: 14px;
 }
 
 /* Services Section */
@@ -246,9 +249,10 @@ main {
   color: #ffffff;
   line-height: 1;
   margin-top: 5px;
+  padding-right: 10px;
 }
 
-.readmore-button {
+#readmore-button {
   text-decoration: none;
   background-color: #fff;
   color: #333;
@@ -263,7 +267,7 @@ main {
   border: none;
 }
 
-.readmore-button:hover {
+#readmore-button:hover {
   background-color: #ff6f80;
   color: white;
 }
@@ -403,7 +407,7 @@ main {
     color: #fff;
   }
 
-  .view-gallery-button {
+  #view-gallery-button {
     text-align: center;
     background-color: #fff;
     text-align: left;
@@ -420,7 +424,7 @@ main {
     padding: 16px 35px;
   }
 
-  .view-gallery-button:hover {
+  #view-gallery-button:hover {
     background-color: #ffea5c; 
   }
 
