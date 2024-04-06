@@ -717,13 +717,13 @@ blockquote:before {
 }
 
                                        /* OUR HISTORY */
-#history-content{
-  margin-bottom: 60% important;
-}
+  #history-content{
+    margin-bottom: 190% important;
+  }
 
 .history-section {
   width: 100%;
-  height: 80vh;
+  height: 120vh;
   display: flex;
 }
 
@@ -737,6 +737,8 @@ blockquote:before {
   border-left: 1px solid #ccc;
   padding: 5rem ;
 }
+
+
 #history-badge {
   font-weight: 700;
   color: #3375ec;
@@ -802,12 +804,10 @@ blockquote:before {
   border-radius: 50%;
 }
 
-.timeline-item-box{
-  border: 4px solid #007bff;
-}
 
 .text-accent {
   color: #007bff; 
+  padding-right: 20px;
 }
 
                                         /*   OUR PARTNERS SECTION  */
@@ -957,11 +957,18 @@ blockquote:before {
 }
   
 
-.column-links {
-    flex: 1; 
-    display: flex;
-    flex-direction: column;
+.column-links{
+  display: flex;
+  /* gap: 1rem;  */
 }
+
+.column-links-left{
+  /* border: 2px solid red; */
+  width: 60%;
+}
+
+
+
 
 .column-links ul {
     padding: 0;
@@ -987,6 +994,7 @@ blockquote:before {
 
   #policy{
     color: #8491A5;
+    
   }
 
 
